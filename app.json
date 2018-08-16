@@ -2,10 +2,9 @@
   "name": "cezerin",
   "description": "",
   "scripts": {
-    "postdeploy": "npm run-script build && npm start"
+    "postdeploy": "npm run-script build && npm start-store"
   },
   "env": {
-    "DB_URL": "mongodb://headlastic:TheFutureIsSlurp2000@ds123852.mlab.com:23852/headlastic"
   },
   "formation": {
   },
