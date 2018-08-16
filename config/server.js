@@ -4,6 +4,8 @@ const dbPort = process.env.DB_PORT || 27017;
 const dbName = process.env.DB_NAME || 'shop';
 const dbUser = process.env.DB_USER || '';
 const dbPass = process.env.DB_PASS || '';
+const storefrontHost = process.env.STOREFRONT_HOST || 'http://localhost:3000';
+const apiHost = process.env.API_HOST || 'http://localhost:3001';
 const dbCred =
 	dbUser.length > 0 || dbPass.length > 0 ? `${dbUser}:${dbPass}@` : '';
 
@@ -12,13 +14,13 @@ const dbUrl =
 
 module.exports = {
 	// used by Store (server side)
-	apiBaseUrl: `http://localhost:3001/api/v1`,
+	apiBaseUrl: `´${apiHost}/api/v1`,
 
 	// used by Store (server and client side)
-	ajaxBaseUrl: `http://localhost:3001/ajax`,
+	ajaxBaseUrl: `${apiHost}/ajax`,
 
 	// Access-Control-Allow-Origin
-	storeBaseUrl: `http://localhost:3000`,
+	storeBaseUrl: `${storefrontHost}`,
 
 	// used by API
 	adminLoginUrl: '/admin/login',
