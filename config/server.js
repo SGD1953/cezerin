@@ -26,7 +26,7 @@ module.exports = {
 	adminLoginUrl: '/admin/login',
 
 	apiListenPort: apiHost.split(':').pop(),
-	storeListenPort: storefrontHost.split(':').pop(),
+	storeListenPort: process.env.PORT || 3000,
 
 	// used by API
 	mongodbServerUrl: dbUrl,
