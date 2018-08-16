@@ -2,7 +2,7 @@
   "name": "cezerin",
   "description": "",
   "scripts": {
-    "postdeploy": "npm install && npm run build"
+    "postdeploy": "npm run build && npm start"
   },
   "env": {
     "DB_HOST": "255.255.255.255",
