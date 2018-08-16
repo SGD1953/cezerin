@@ -5,7 +5,7 @@
     "postdeploy": "npm run build && npm start"
   },
   "env": {
-    "DB_HOST": "255.255.255.255",
+    "DB_HOST": "127.0.0.1",
     "DB_PORT": "27017",
     "DB_NAME": "shop",
     "DB_USER": "user",
