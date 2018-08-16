@@ -2,14 +2,10 @@
   "name": "cezerin",
   "description": "",
   "scripts": {
-    "postdeploy": "npm run build && npm start"
+    "postdeploy": "npm run-script build && npm start"
   },
   "env": {
-    "DB_HOST": "127.0.0.1",
-    "DB_PORT": "27017",
-    "DB_NAME": "shop",
-    "DB_USER": "user",
-    "DB_PASS": "password"
+    "DB_URL": "mongodb://headlastic:TheFutureIsSlurp2000@ds123852.mlab.com:23852/headlastic"
   },
   "formation": {
   },
