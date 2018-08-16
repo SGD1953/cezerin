@@ -9,7 +9,7 @@
       "required" : true
     },
     "STOREFRONT_HOST" : "http://${HEROKU_APP_NAME}.herokuapp.com:3000",
-    "API_HOST" : "http://${HEROKU_APP_NAME}:3000"
+    "API_HOST" : "http://${HEROKU_APP_NAME}:3001"
   },
   "formation": {
   },
