@@ -2,14 +2,9 @@
   "name": "cezerin",
   "description": "",
   "scripts": {
-    "postdeploy": "npm install && npm run build"
+    "postdeploy": "npm run-script build && npm start-store"
   },
   "env": {
-    "DB_HOST": "255.255.255.255",
-    "DB_PORT": "27017",
-    "DB_NAME": "shop",
-    "DB_USER": "user",
-    "DB_PASS": "password"
   },
   "formation": {
   },
