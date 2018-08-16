@@ -7,8 +7,8 @@
     "HEROKU_APP_NAME" : {
       "required" : true
     },
-    "STOREFRONT_HOST" : "http://headlastic-pr-2.herokuapp.com",
-    "API_HOST" : "http://headlastic-pr-2.herokuapp.com:3001"
+    "STOREFRONT_HOST" : "https://headlastic-pr-2.herokuapp.com",
+    "API_HOST" : "https://headlastic-pr-2.herokuapp.com:3001"
   },
   "formation": {
   },
