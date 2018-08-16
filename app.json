@@ -2,7 +2,7 @@
   "name": "cezerin",
   "description": "",
   "scripts": {
-    "postdeploy": "npm run-script build && npm start-store"
+    "postdeploy": "npm run-script build"
   },
   "env": {
   },
