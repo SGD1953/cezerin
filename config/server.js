@@ -4,8 +4,10 @@ const dbPort = process.env.DB_PORT || 27017;
 const dbName = process.env.DB_NAME || 'shop';
 const dbUser = process.env.DB_USER || '';
 const dbPass = process.env.DB_PASS || '';
-const storefrontHost = process.env.STOREFRONT_HOST || 'http://localhost:3000';
-const apiHost = process.env.API_HOST || 'http://localhost:3001';
+const storefrontHost =
+	process.env.STOREFRONT_HOST || `http://localhost:${process.env.PORT || 3000}`;
+const apiHost =
+	process.env.API_HOST || `http://localhost:${process.env.PORT || 3001}`;
 const dbCred =
 	dbUser.length > 0 || dbPass.length > 0 ? `${dbUser}:${dbPass}@` : '';
 
