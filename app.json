@@ -2,14 +2,13 @@
   "name": "cezerin",
   "description": "",
   "scripts": {
-    "postdeploy": "npm install && npm run build"
   },
   "env": {
-    "DB_HOST": "255.255.255.255",
-    "DB_PORT": "27017",
-    "DB_NAME": "shop",
-    "DB_USER": "user",
-    "DB_PASS": "password"
+    "HEROKU_APP_NAME" : {
+      "required" : true
+    },
+    "STOREFRONT_HOST" : "https://headlastic-pr-2.herokuapp.com",
+    "API_HOST" : "https://headlastic-pr-3.herokuapp.com"
   },
   "formation": {
   },
