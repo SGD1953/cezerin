@@ -2,5 +2,5 @@
 module.exports = {
 	// store UI language
 	language: 'en',
-	ajaxBaseUrl: 'https://headlastic-pr-2.herokuapp.com/ajax'
+	ajaxBaseUrl: 'https://headlastic-pr-3.herokuapp.com/ajax'
 };

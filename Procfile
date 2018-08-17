@@ -1,1 +1,1 @@
-web: npm run start-store
+web: npm run start-api
